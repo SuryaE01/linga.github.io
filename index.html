@@ -3,7 +3,7 @@
   <head>
     <title>Lingasan P Portfolio</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -26,6 +26,31 @@
 
 <style>
 
+.container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+@media (min-width: 576px) {
+            /* Adjustments for small devices (landscape phones, 576px and up) */
+            .navbar-nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav-item {
+                margin-bottom: 10px;
+            }
+        }
+
+@media (min-width: 768px) {
+            /* Adjustments for medium devices (tablets, 768px and up) */
+            .nav-item {
+                margin-bottom: 0;
+            }
+        }
 /*======================================
 //--//-->   ABOUT
 ======================================*/
@@ -418,8 +443,7 @@
 			<div class="col-md-12 text-center">
   
 			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
 			</div>
 		  </div>
 		</div>
